@@ -1,0 +1,83 @@
+.quadrant-container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 30px auto;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+/* Grid quadrants - each quarter */
+.grid-box {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  left: 50%;
+}
+
+.bottom-left {
+  top: 50%;
+  left: 0;
+}
+
+.bottom-right {
+  top: 50%;
+  left: 50%;
+}
+
+/* Labels for quadrants */
+.label {
+  position: absolute;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.label.top-left {
+  top: 5px;
+  left: 5px;
+}
+
+.label.top-right {
+  top: 5px;
+  right: 5px;
+}
+
+.label.bottom-left {
+  bottom: 5px;
+  left: 5px;
+}
+
+.label.bottom-right {
+  bottom: 5px;
+  right: 5px;
+}
+
+/* Dots / Competitor names */
+.dot {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background-color: #0056d2;         /* Brighter blue for better contrast */
+  color: #fff;
+  padding: 10px 16px;                /* More padding for visibility */
+  border-radius: 12px;               /* Less rounded for rectangular badge style */
+  font-size: 14px;                   /* Increased font size */
+  font-weight: bold;                /* Bolder text */
+  white-space: nowrap;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Deeper shadow for visibility */
+  border: 2px solid #fff;            /* White outline for contrast */
+  z-index: 10;
+}

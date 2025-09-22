@@ -1,0 +1,18 @@
+/* src/components/IBMLoginPage.css */
+.ibm-login-root { min-height: calc(100vh - 0px); background:#fff; display:flex; flex-direction:column; }
+.ibm-login-header { border-bottom:1px solid rgba(6,12,30,0.06); background:#fff; }
+.ibm-login-inner { max-width:1200px; margin:0 auto; padding:12px 20px; display:flex; align-items:center; }
+.ibm-login-main { max-width:1200px; margin:40px auto; padding:0 20px; display:flex; gap:28px; align-items:stretch; }
+.ibm-login-left { flex:1; max-width:520px; }
+.ibm-login-title { font-size:36px; font-weight:700; margin:6px 0 18px; }
+.ibm-login-form { background:transparent; display:flex; flex-direction:column; gap:12px; }
+.ibm-label { font-size:13px; color:#6b7280; margin-bottom:6px; display:block; }
+.ibm-input { padding:18px 12px; border-radius:4px; border:1px solid #e6e9ee; background:#f3f4f6; font-size:16px; }
+.ibm-continue-btn { margin-top:8px; background:#0b63ff; color:#fff; border:none; padding:14px 18px; border-radius:6px; font-weight:700; cursor:pointer; }
+.ibm-remember { margin-top:12px; color:#475569; font-size:14px; display:flex; gap:8px; align-items:center; }
+.ibm-link-block { margin-top:18px; }
+.ibm-create-btn { background:#fff; border:1px solid #2f7bff; color:#0b63ff; padding:12px 14px; border-radius:6px; margin-top:8px; }
+
+/* right art */
+.ibm-login-right { flex:1; display:flex; align-items:center; justify-content:center; }
+.ibm-login-art { width:520px; max-width:100%; opacity:0.98; }
