@@ -1130,8 +1130,11 @@ export default function App() {
     },
     {
       title: "Low visibility of AI tools in practice",
-      body:
-        "Surface tooling and 'how-to' quickly. Add short hands-on sandboxes and one-click demos (for example, hosted notebooks, live model playgrounds) that let learners try a feature in 5–15 minutes so content feels practical, not just conceptual."
+      body: [
+    "AI tools often feel theoretical without hands on.",
+    "Can have hands on tryouts like hosted notebooks",
+    "Include live playgrounds for learners to type input and see output.",
+  ]
     },
     {
       title: "Ethics & risks — make them actionable",
